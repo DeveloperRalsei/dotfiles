@@ -1,0 +1,37 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      // "shift shift": "file_finder::Toggle",1
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      // "j k": ["workspace::SendKeystrokes", "escape"]
+    }
+  },
+  {
+    "context": "Editor && mode == full",
+    "bindings": {
+      "alt-enter": "editor::OpenExcerpts",
+      "shift-enter": "editor::ExpandExcerpts",
+      "ctrl-enter": "editor::NewlineBelow",
+      "caps-lock": "editor::NextScreen",
+
+      "ctrl-k enter": "editor::OpenExcerptsSplit",
+      "ctrl-f8": "editor::GoToHunk",
+      "ctrl-shift-f8": "editor::GoToPrevHunk",
+      "shift-alt-f": "editor::Format",
+      // "ctrl-enter": "editor::Newline"
+      "ctrl+shift+j": "workspace::OpenTerminal"
+    }
+  }
+]

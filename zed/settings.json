@@ -1,0 +1,60 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custotruem settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "formatter": "prettier",
+  "auto_update": true,
+  "project_panel": {
+    "dock": "right"
+  },
+  "assistant": {
+    "dock": "left",
+    "version": "2"
+  },
+  "base_keymap": "VSCode",
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "chat_panel": {
+    "dock": "right"
+  },
+  "features": {
+    "inline_completion_provider": "supermaven"
+  },
+  "vim_mode": true,
+  "ui_font_family": "Consolas",
+  "ui_font_size": 16,
+  "buffer_font_size": 14,
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "Github Dark Colorblind"
+  },
+  "terminal": {
+    "shell": "system",
+    "font_size": 12
+  },
+  "tab_size": 4,
+  "languages": {
+    "TypeScript": {
+      "formatter": {
+        "command": "prettier"
+      }
+    },
+    "JavaScript": {
+      "tab_size": 4,
+      "formatter": "prettier",
+      "format_on_save": "on",
+      "enable_language_server": true
+    }
+  },
+  "session": {
+    "restore_unsaved_buffers": true
+  }
+}
