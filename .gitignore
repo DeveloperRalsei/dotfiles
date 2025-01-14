@@ -34,6 +34,8 @@
 !btop/
 !btop/**
 
+!fish/
+!fish/**
 
 !starship.toml
 !.gitignore
