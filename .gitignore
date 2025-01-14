@@ -1,4 +1,5 @@
 **
+*.log
 
 !alacritty/
 !alacritty/**
@@ -23,6 +24,9 @@
 
 !nvim/
 !nvim/**
+
+!neofetch/
+!neofetch/**
 
 !cava/
 !cava/**
