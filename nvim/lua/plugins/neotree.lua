@@ -6,6 +6,9 @@ return {
                 visible = true,
                 hide_dotfiles = false, -- Gizli dosyaların görünmesini sağlar.
             },
+            window = {
+                position = "right",
+            },
         },
     },
 }

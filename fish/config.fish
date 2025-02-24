@@ -14,9 +14,11 @@ if status is-interactive
     alias :D="echo 'UwU'"
     alias clear="clear && neofetch"
     alias mwah="echo '(>///<) -> Aww~ Y-you... making me blush :3'"
+    alias vim="nvim"
 end
 starship init fish | source
 neofetch
 export PROJECTS=$HOME/Documents/Projects
+export OSU=$HOME/.osu
 
 thefuck --alias | source

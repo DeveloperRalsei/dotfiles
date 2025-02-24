@@ -37,7 +37,11 @@
 !fish/
 !fish/**
 
+!kitty/
+!kitty/**
+
 !starship.toml
 !.gitignore
 !README.md
+           **/*.log
 
